@@ -3,6 +3,6 @@
     "@emailjs/browser": "^4.4.1"
   },
   "scripts": {
-    "build": "echo 'no root build'"
+    "build": "cd subtle-flow-automation && npm run build"
   }
 }
