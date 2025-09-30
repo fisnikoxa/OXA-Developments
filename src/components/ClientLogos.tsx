@@ -10,7 +10,7 @@ const ClientLogos = () => {
   return (
     <div className="py-16 bg-[color:var(--background)]">
       <div className="container max-w-6xl mx-auto px-4">
-      <h2 className="text-4xl font-cal mb-16 text-center">Clients</h2>
+      <h2 className="text-4xl font-outfit mb-16 text-center">Clients</h2>
         <div className="flex flex-row flex-nowrap overflow-x-auto md:flex-wrap md:overflow-visible justify-start md:justify-between items-center gap-1 md:gap-0">
           {logos.map((logo, index) => (
             <div 

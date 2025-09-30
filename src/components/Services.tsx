@@ -30,7 +30,7 @@ const Services = () => {
   return (
     <div className="py-24 bg-offwhite">
       <div className="container max-w-3xl mx-auto px-4">
-        <h2 className="text-4xl font-cal mb-16 text-center">Services</h2>
+        <h2 className="text-4xl font-outfit mb-16 text-center">Services</h2>
         
         <div className="flex flex-col gap-6">
           {services.map((service, index) => (
@@ -41,7 +41,7 @@ const Services = () => {
                 visibleCards.includes(index) ? 'opacity-100' : 'opacity-0 translate-y-10'
               }`}
             >
-              <h3 className="font-cal text-xl mb-2 font-bold">{service.title}</h3>
+              <h3 className="font-outfit text-xl mb-2 font-bold">{service.title}</h3>
               <p className="font-inter">{service.description}</p>
             </div>
           ))}

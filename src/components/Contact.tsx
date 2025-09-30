@@ -67,7 +67,7 @@ const Contact = () => {
   return (
     <div id="contact" className="py-24 bg-offwhite">
       <div className="container max-w-xl mx-auto px-4">
-        <h2 className="text-4xl font-cal mb-6 text-center">Let's Build Together</h2>
+        <h2 className="text-4xl font-outfit mb-6 text-center">Let's Build Together</h2>
         
         <form onSubmit={handleSubmit} className="space-y-6">
           <div>

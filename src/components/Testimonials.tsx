@@ -3,7 +3,7 @@ import { cn } from '@/lib/utils';
 
 const testimonials = [
   {
-    quote: "They were great to work with.Quick replies, intelligent suggestions, overall great experience.",
+    quote: "They were great to work with. Quick replies, intelligent suggestions, overall great experience.",
     name: "Ben Gavin",
     position: "Account Executive, Fieldwire"
   },
@@ -44,7 +44,7 @@ const Testimonials = () => {
   return (
     <div ref={sectionRef} className="py-24 bg-offwhite">
       <div className="container max-w-6xl mx-auto px-4">
-        <h2 className="text-4xl font-cal mb-16 text-center">Testimonials</h2>
+        <h2 className="text-4xl font-outfit mb-16 text-center">Testimonials</h2>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           {testimonials.map((testimonial, index) => (
@@ -57,7 +57,7 @@ const Testimonials = () => {
               )}
             >
               <div className="w-16 h-16 rounded-full bg-charcoal mb-6 flex items-center justify-center">
-                <span className="text-offwhite text-xl font-cal">
+                <span className="text-offwhite text-xl font-outfit">
                   {testimonial.name.charAt(0)}
                 </span>
               </div>
